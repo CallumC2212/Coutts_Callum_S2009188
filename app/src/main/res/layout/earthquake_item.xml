@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/quake_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/quake_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full description here"
+        android:visibility="gone"
+        android:textColor="#666"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+    <TextView
+        android:id="@+id/quake_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/quake_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: "
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/quake_magnitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitude" />
+
+    <TextView
+        android:id="@+id/quake_depth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depth" />
+
+    <TextView
+        android:id="@+id/quake_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+</LinearLayout>
